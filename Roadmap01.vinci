@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Roadmap01" id="index" text="Roadmap_1107" icon="fas fa-road" linkedElements="196f489b-48bd-40f0-9961-8cf868441ecb c854040e-e9a6-48a5-8b66-7c26f36d1d79" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/cerulean/dark-fluid.vinci">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Задачи" id="196f489b-48bd-40f0-9961-8cf868441ecb" text="Задачи" linkedElements="029826dc-b51a-4c6f-b718-88b32d720554 bf9f4a07-b6fd-4c17-bd2c-239270616808" activatorType="None">
+    <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Насданика" id="029826dc-b51a-4c6f-b718-88b32d720554" text="Насданика" linkedElements="85132a62-97b5-442a-9fe7-45d52faab3b7">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Создание учебных материалов" id="85132a62-97b5-442a-9fe7-45d52faab3b7" text="Создание учебных материалов" linkedElements="6938eedd-3925-45c2-98e1-61b853854bfb aa5bd2a6-33e0-41a6-b941-79771e2dafb8 b602ac95-b122-4488-aa07-d00d537e2a89">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Видео-курсы" id="6938eedd-3925-45c2-98e1-61b853854bfb" text="Видео-курсы" linkedElements="7eafb10b-e6df-4354-af87-cb278ad55d75 0d12907c-acbe-4da3-88ef-a14b22bc52e4 20bce43b-28cf-4bde-8aea-bea2ba5d80ca aa41e331-1f99-48ad-a871-313763ce4dd5 bbe3410a-a019-4fc8-a0e6-0eae8f68813d" markdownContent="ляля&#xD;&#xA;&#xD;&#xA;ля">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Базовый бесплатный курс" id="7eafb10b-e6df-4354-af87-cb278ad55d75" text="Базовый бесплатный курс" markdownContent="курс из 10 лекций продолжительностью 2 часа описывающий: &#xD;&#xA;1.&#xD;&#xA;2.">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" title="Что такое Nasdanika Vinci? Как можно использовать Mind-map в веб-разработке?" id="27b158a9-f278-4df4-bbd6-b51b5c2d950d" text="Лекция 1. Что такое Nasdanika Vinci? Как можно использовать Mind-map в веб-разработке?" markdownContent="Вводная лекция, описывающая  новый подход к разработке.&#xD;&#xA;5,34 мин. &#xD;&#xA;Запись и обработка лекции  "/>
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="3049974c-cc0d-4b55-b424-2816725b6856"/>
+          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Курс Автоматизация публикации" id="0d12907c-acbe-4da3-88ef-a14b22bc52e4" text="Курс Автоматизация публикации" markdownContent="платный курс"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Урок: Публикация через веб - интерфейс" id="aa41e331-1f99-48ad-a871-313763ce4dd5" text="Урок: Публикация через веб - интерфейс" markdownContent="Записать видео-урок про публикацию черз веб интерфейс.&#xD;&#xA;&#xD;&#xA;Разрекламировать платный курс про публикацию&#xD;&#xA;"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Курс про построение федерации моделей" id="bbe3410a-a019-4fc8-a0e6-0eae8f68813d" text="Курс про построение федерации моделей" markdownContent=""/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Создание резюме (так же как у Паши, только с русскими реалиями и теорией)" id="20bce43b-28cf-4bde-8aea-bea2ba5d80ca" text="Создание резюме (так же как у Паши, только с русскими реалиями и теорией)" markdownContent="Показать как строится модель медленно и вдумчиво, никуда не торопясь.&#xD;&#xA;Рассказать про резюме и про куррикулюм вита: в чем разница.&#xD;&#xA;&#xD;&#xA;Вставить жизненные истории.&#xD;&#xA;"/>
+        </elements>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Текстовые инструкции" id="aa5bd2a6-33e0-41a6-b941-79771e2dafb8" text="Текстовые инструкции" linkedElements="311ed62c-84ab-4020-bf06-cde17ab6e3fd">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Первый вариант Get Started" id="b5c390bd-fe97-4a53-aa73-f84cb78c3a12" text="Первый вариант Get Started"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Второй вариант Get Started Level 1" id="311ed62c-84ab-4020-bf06-cde17ab6e3fd" text="Второй вариант Get Started Level 1">
+            <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="ссылка на второй вариант инструкции" style="true" markdown=" [Стартовая страница инструкции](https://tanchora.github.io/vinci_udemy_base_course/courseprogram/index.html)    &#xD;&#xA;&#xD;&#xA;"/>
+          </elements>
+        </elements>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Книги" id="b602ac95-b122-4488-aa07-d00d537e2a89" text="Книги" linkedElements="55b1274d-1d05-4e4d-b94d-4d8ce1b28cde ca65cebe-8753-4d9d-bfe5-99bb59605b76">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Теория и практика моделирования структуры многостраничных статических веб-ресурсов с использованием технологии mind-mapping" id="ca65cebe-8753-4d9d-bfe5-99bb59605b76" text="Теория и практика моделирования структуры многостраничных статических веб-ресурсов с использованием технологии mind-mapping"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Книга по базовому курсу" id="55b1274d-1d05-4e4d-b94d-4d8ce1b28cde" text="Книга по базовому курсу"/>
+        </elements>
+      </elements>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Остальное" id="bf9f4a07-b6fd-4c17-bd2c-239270616808" text="Остальное">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Родители" id="80ada44e-159f-4298-a4ed-6b32ca5bf028" text="Родители"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конюковы семейное" id="c44cb52d-9832-4583-9ae3-c8199277523a" text="Конюковы семейное"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Образование" id="dfa4dc0d-ef37-4037-afc8-91e9658718d9" text="Образование"/>
+    </elements>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Календарный план" id="c854040e-e9a6-48a5-8b66-7c26f36d1d79" text=" Календарный план" icon="far fa-calendar-alt" activator="./../calendar/Calendar.html"/>
+</org.nasdanika.vinci.app:Action>

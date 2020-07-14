@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.bootstrap="urn:org.nasdanika.vinci.bootstrap" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Calendar" id="Calendar" text="Calendar" linkedElements="zadachi 7d3cad78-afa3-45da-8685-1c0ba892f75b a354c820-3691-455e-bf19-3984d8dd233a" sectionStyle="Default" confirmation="./../Roadmap01/7eafb10b-e6df-4354-af87-cb278ad55d75.html" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/cerulean/dark-fluid.vinci">
+  <actionMappings alias="manualwebpub" description="урок про публикацию через веб-интерфейс">
+    <target xsi:type="org.nasdanika.vinci.app:Action" href="Roadmap01.vinci#aa41e331-1f99-48ad-a871-313763ce4dd5"/>
+  </actionMappings>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Year" id="zadachi" text="" icon="far fa-calendar-alt" linkedElements="a354c820-3691-455e-bf19-3984d8dd233a 4e08ae07-e5e3-4120-ac28-309f855c02cf e9c94559-a37b-4298-8b99-7c6023dcae98 0732b65f-9df7-47b8-99c9-73072d4108d8" activatorType="None">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Насданика " id="4e08ae07-e5e3-4120-ac28-309f855c02cf" text="Насданика" role="Context"/>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Помесячно" id="0732b65f-9df7-47b8-99c9-73072d4108d8" text="  Помесячно" icon="far fa-calendar-check" role="Context" activatorType="None">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Январь" id="d94937e8-72f1-4fbd-b204-54df1607b57b" text="Январь" role="Context"/>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Остальное" id="e9c94559-a37b-4298-8b99-7c6023dcae98" text="Остальное" role="Context"/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Сводная" id="a354c820-3691-455e-bf19-3984d8dd233a" text="" role="Section" sectionStyle="Default">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Базовый курс" id="a509b145-6946-45a8-a186-2ad86778ccdf" text="Базовый курс" linkedElements="56aee354-07d1-410d-877e-3816eb49ccb7" role="Section" sectionStyle="Action group" activator="./../e481c00c-27ea-424a-adde-f685afdd8d5b.html" markdownContent="&#xD;&#xA;">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="подробнее" id="56aee354-07d1-410d-877e-3816eb49ccb7" text="Подробнее" role="Context" activator="./../Roadmap01/7eafb10b-e6df-4354-af87-cb278ad55d75.html"/>
+      <content xsi:type="org.nasdanika.vinci.bootstrap:Table" title="календарный план и статусы 2020 насданика" bordered="true" borderless="true" hover="true">
+        <rows title="Шапка">
+          <cells markdownContent="Январь" title="Январь" header="true"/>
+          <cells markdownContent="Февраль" title="Февраль" header="true"/>
+          <cells markdownContent="Март" title="Март" header="true"/>
+          <cells markdownContent="Апрель" title="Апрель" header="true"/>
+          <cells markdownContent="Май" title="Май" header="true"/>
+          <cells markdownContent="Июнь" title="Июнь" header="true"/>
+          <cells markdownContent="Июль" title="Июль" header="true"/>
+          <cells markdownContent="Август" title="Август" header="true"/>
+          <cells markdownContent="Сентябрь" title="Сентябрь" header="true"/>
+          <cells markdownContent="Октябрь" title="Октябрь" header="true"/>
+          <cells markdownContent="Ноябрь" title="Ноябрь" header="true"/>
+          <cells markdownContent="Декабрь" title="Декабрь" header="true"/>
+        </rows>
+        <rows title="Базовый бесплатный курс">
+          <cells markdownContent="в работе" title="1" color="Primary"/>
+          <cells markdownContent="в работе" title="2" color="Primary"/>
+          <cells markdownContent="в работе" title="3" color="Primary"/>
+          <cells markdownContent="в работе" title="4" color="Primary"/>
+          <cells markdownContent="в работе" title="5" color="Primary"/>
+          <cells markdownContent="доработка" title="6" color="Secondary"/>
+          <cells title="7"/>
+          <cells title="8"/>
+          <cells title="9"/>
+          <cells title="10"/>
+          <cells title="11"/>
+          <cells title="12"/>
+        </rows>
+      </content>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Текстовая инструкция по мотивам базового курса" id="0b37adfa-7975-4b5d-8ada-8e8af64ea0e5" text="Текстовая инструкция по мотивам базового курса" role="Section" sectionStyle="Action group" markdownContent="&#xD;&#xA;">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Подробнее" id="b6da1054-8e43-4c55-8015-0fd9bc1babe7" text="Подробнее" role="Context" activator="./../Roadmap01/311ed62c-84ab-4020-bf06-cde17ab6e3fd.html"/>
+      <content xsi:type="org.nasdanika.ncore:SupplierFactoryReference" title="ссылка на второй вариант инструкции">
+        <target xsi:type="org.nasdanika.vinci.components:MarkdownText" href="Roadmap01.vinci#//@elements.0/@elements.0/@elements.0/@elements.1/@elements.1/@content.0"/>
+      </content>
+      <content xsi:type="org.nasdanika.vinci.bootstrap:Table" title="календарный план и статусы 2020 насданика" bordered="true" hover="true">
+        <rows title="Шапка">
+          <cells markdownContent="Январь" title="Январь" header="true"/>
+          <cells markdownContent="Февраль" title="Февраль" header="true"/>
+          <cells markdownContent="Март" title="Март" header="true"/>
+          <cells markdownContent="Апрель" title="Апрель" header="true"/>
+          <cells markdownContent="Май" title="Май" header="true"/>
+          <cells markdownContent="Июнь" title="Июнь" header="true"/>
+          <cells markdownContent="Июль" title="Июль" header="true"/>
+          <cells markdownContent="Август" title="Август" header="true"/>
+          <cells markdownContent="Сентябрь" title="Сентябрь" header="true"/>
+          <cells markdownContent="Октябрь" title="Октябрь" header="true"/>
+          <cells markdownContent="Ноябрь" title="Ноябрь" header="true"/>
+          <cells markdownContent="Декабрь" title="Декабрь" header="true"/>
+        </rows>
+        <rows title="Текстовая инструкция по мотивам бесплатного курса">
+          <cells markdownContent="" title="1" color=""/>
+          <cells title="2" color=""/>
+          <cells title="3" color=""/>
+          <cells markdownContent="" title="4" color=""/>
+          <cells markdownContent="в работе" title="5" color="Primary"/>
+          <cells markdownContent="в работе" title="6" color="Primary"/>
+          <cells markdownContent="доработка" title="7" color="Secondary"/>
+          <cells title="8"/>
+          <cells title="9"/>
+          <cells title="10"/>
+          <cells title="11"/>
+          <cells title="12"/>
+        </rows>
+      </content>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Урок: Публикация через веб - интерфейс" id="7c647ec0-8339-4fce-afb9-9b44b57aa5be" text="Урок: Публикация через веб - интерфейс" role="Section" sectionStyle="Action group" markdownContent="Необходимо записать как продолжение базового курса. Эта же информация может быть включена в платный курс про публикацию на Юдеми. За счёт этого урока можно рекламироваться, раскручиваться, разместить его как статью на хабре - что для России очень круто.&#xD;&#xA;&#xD;&#xA;вот так вот выглядит экшн мэппинг на  элемент другой модели в том же проекте&#xD;&#xA;&#xD;&#xA;${action-mappings/manualwebpub}">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Подробнее" id="publication" text="Подробнее" role="Context" activator="./../Roadmap01/aa41e331-1f99-48ad-a871-313763ce4dd5.html"/>
+      <content xsi:type="org.nasdanika.vinci.bootstrap:Table" title="календарный план и статусы 2020 насданика" bordered="true" borderless="true" hover="true">
+        <rows title="Шапка">
+          <cells markdownContent="Январь" title="Январь" header="true"/>
+          <cells markdownContent="Февраль" title="Февраль" header="true"/>
+          <cells markdownContent="Март" title="Март" header="true"/>
+          <cells markdownContent="Апрель" title="Апрель" header="true"/>
+          <cells markdownContent="Май" title="Май" header="true"/>
+          <cells markdownContent="Июнь" title="Июнь" header="true"/>
+          <cells markdownContent="Июль" title="Июль" header="true"/>
+          <cells markdownContent="Август" title="Август" header="true"/>
+          <cells markdownContent="Сентябрь" title="Сентябрь" header="true"/>
+          <cells markdownContent="Октябрь" title="Октябрь" header="true"/>
+          <cells markdownContent="Ноябрь" title="Ноябрь" header="true"/>
+          <cells markdownContent="Декабрь" title="Декабрь" header="true"/>
+        </rows>
+        <rows title="Публикация через веб-интерфейс">
+          <cells markdownContent="" title="1" color=""/>
+          <cells title="2" color=""/>
+          <cells title="3" color=""/>
+          <cells markdownContent="" title="4" color=""/>
+          <cells markdownContent="" title="5" color=""/>
+          <cells markdownContent="план" title="6" color="Danger"/>
+          <cells markdownContent="план" title="7" color="Danger"/>
+          <cells title="8"/>
+          <cells title="9"/>
+          <cells title="10"/>
+          <cells title="11"/>
+          <cells title="12"/>
+        </rows>
+      </content>
+    </elements>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="К задачам" id="7d3cad78-afa3-45da-8685-1c0ba892f75b" text=" К задачам" icon="fas fa-tasks" activator="./../Roadmap01/index.html"/>
+</org.nasdanika.vinci.app:Action>

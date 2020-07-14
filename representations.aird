@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:org.nasdanika.sirius.tree="urn:org.nasdanika.sirius.tree" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description">
+  <viewpoint:DAnalysis uid="_zLqpQMNwEeqG4ITmXy_N_A" selectedViews="_3xlrgMNwEeqG4ITmXy_N_A" version="14.3.0.201909031200">
+    <semanticResources>Roadmap01.vinci</semanticResources>
+    <semanticResources>calendar.vinci</semanticResources>
+    <semanticResources>resources.vinci</semanticResources>
+    <semanticResources>resources/Pulse.vinci</semanticResources>
+    <semanticResources>resources/Sandstone_tablePrimary.vinci</semanticResources>
+    <semanticResources>resources/SpaseLabTablePrimary.vinci</semanticResources>
+    <semanticResources>resources/United_base_course.vinci</semanticResources>
+    <semanticResources>resources/United_dark.vinci</semanticResources>
+    <semanticResources>resources/Spaselab_Light_Primary.vinci</semanticResources>
+    <semanticResources>resources/Spaselab_Light_Dark.vinci</semanticResources>
+    <semanticResources>resources/Spaselab_Primary_Dark_light.vinci</semanticResources>
+    <semanticResources>resources/Spaselab_Primary_Light.vinci</semanticResources>
+    <semanticResources>resources/Flatly.vinci</semanticResources>
+    <semanticResources>docs.vinci</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_3xlrgMNwEeqG4ITmXy_N_A">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_67W40MNwEeqG4ITmXy_N_A" name="RM01" repPath="#_67SAUMNwEeqG4ITmXy_N_A">
+        <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="Roadmap01.vinci#index"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_uBLr8MNxEeqG4ITmXy_N_A" name="calendar01" repPath="#_uBJ2wMNxEeqG4ITmXy_N_A">
+        <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="calendar.vinci#Calendar"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_lb98UMVjEeqWm_FOD2jypQ" name="resources" repPath="#_lb3OoMVjEeqWm_FOD2jypQ">
+        <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="resources.vinci#3cf437b0-d81b-4e0c-a290-bdc0c0859416"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Gcm6ocWDEeqWm_FOD2jypQ" name="docs" repPath="#_GcmTkMWDEeqWm_FOD2jypQ">
+        <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#467e7c72-dbf5-499a-bacd-bb185e98578d"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_67SAUMNwEeqG4ITmXy_N_A">
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="Roadmap01.vinci#index"/>
+    <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+  </org.nasdanika.sirius.tree:AdapterFactoryTree>
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_uBJ2wMNxEeqG4ITmXy_N_A">
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="calendar.vinci#Calendar"/>
+    <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+  </org.nasdanika.sirius.tree:AdapterFactoryTree>
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_lb3OoMVjEeqWm_FOD2jypQ">
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="resources.vinci#3cf437b0-d81b-4e0c-a290-bdc0c0859416"/>
+    <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+  </org.nasdanika.sirius.tree:AdapterFactoryTree>
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_GcmTkMWDEeqWm_FOD2jypQ">
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#467e7c72-dbf5-499a-bacd-bb185e98578d"/>
+    <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+  </org.nasdanika.sirius.tree:AdapterFactoryTree>
+</xmi:XMI>
