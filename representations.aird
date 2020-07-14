@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:org.nasdanika.sirius.tree="urn:org.nasdanika.sirius.tree" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description">
   <viewpoint:DAnalysis uid="_zLqpQMNwEeqG4ITmXy_N_A" selectedViews="_3xlrgMNwEeqG4ITmXy_N_A" version="14.3.0.201909031200">
-    <semanticResources>Roadmap01.vinci</semanticResources>
-    <semanticResources>calendar.vinci</semanticResources>
-    <semanticResources>resources.vinci</semanticResources>
-    <semanticResources>resources/Pulse.vinci</semanticResources>
-    <semanticResources>resources/Sandstone_tablePrimary.vinci</semanticResources>
-    <semanticResources>resources/SpaseLabTablePrimary.vinci</semanticResources>
-    <semanticResources>resources/United_base_course.vinci</semanticResources>
-    <semanticResources>resources/United_dark.vinci</semanticResources>
-    <semanticResources>resources/Spaselab_Light_Primary.vinci</semanticResources>
-    <semanticResources>resources/Spaselab_Light_Dark.vinci</semanticResources>
-    <semanticResources>resources/Spaselab_Primary_Dark_light.vinci</semanticResources>
-    <semanticResources>resources/Spaselab_Primary_Light.vinci</semanticResources>
-    <semanticResources>resources/Flatly.vinci</semanticResources>
     <semanticResources>docs.vinci</semanticResources>
+    <semanticResources>docs/calendar.vinci</semanticResources>
+    <semanticResources>docs/resources.vinci</semanticResources>
+    <semanticResources>docs/resources/Flatly.vinci</semanticResources>
+    <semanticResources>docs/resources/Pulse.vinci</semanticResources>
+    <semanticResources>docs/resources/Sandstone_tablePrimary.vinci</semanticResources>
+    <semanticResources>docs/resources/SpaseLabTablePrimary.vinci</semanticResources>
+    <semanticResources>docs/resources/Spaselab_Light_Dark.vinci</semanticResources>
+    <semanticResources>docs/resources/Spaselab_Light_Primary.vinci</semanticResources>
+    <semanticResources>docs/resources/Spaselab_Primary_Dark_light.vinci</semanticResources>
+    <semanticResources>docs/resources/Spaselab_Primary_Light.vinci</semanticResources>
+    <semanticResources>docs/resources/United_base_course.vinci</semanticResources>
+    <semanticResources>docs/resources/United_dark.vinci</semanticResources>
+    <semanticResources>docs/Roadmap01.vinci</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_3xlrgMNwEeqG4ITmXy_N_A">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_67W40MNwEeqG4ITmXy_N_A" name="RM01" repPath="#_67SAUMNwEeqG4ITmXy_N_A">
@@ -33,6 +33,10 @@
         <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
         <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#index"/>
       </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_6lNTMMWgEeqoiq7F0iiC2w" name="Отчет стартовая" repPath="#_6lJo0MWgEeqoiq7F0iiC2w">
+        <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#index"/>
+      </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
   <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_67SAUMNwEeqG4ITmXy_N_A">
@@ -48,6 +52,10 @@
     <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
   </org.nasdanika.sirius.tree:AdapterFactoryTree>
   <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_GcmTkMWDEeqWm_FOD2jypQ">
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#index"/>
+    <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+  </org.nasdanika.sirius.tree:AdapterFactoryTree>
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_6lJo0MWgEeqoiq7F0iiC2w">
     <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#index"/>
     <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
   </org.nasdanika.sirius.tree:AdapterFactoryTree>
