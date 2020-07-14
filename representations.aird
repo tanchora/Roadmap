@@ -31,7 +31,7 @@
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Gcm6ocWDEeqWm_FOD2jypQ" name="docs" repPath="#_GcmTkMWDEeqWm_FOD2jypQ">
         <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
-        <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#467e7c72-dbf5-499a-bacd-bb185e98578d"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#index"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
@@ -48,7 +48,7 @@
     <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
   </org.nasdanika.sirius.tree:AdapterFactoryTree>
   <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_GcmTkMWDEeqWm_FOD2jypQ">
-    <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#467e7c72-dbf5-499a-bacd-bb185e98578d"/>
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#index"/>
     <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
   </org.nasdanika.sirius.tree:AdapterFactoryTree>
 </xmi:XMI>
