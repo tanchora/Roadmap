@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Задачи" id="index" text="Задачи" icon="fas fa-road" linkedElements="196f489b-48bd-40f0-9961-8cf868441ecb home" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/cerulean/dark-fluid.vinci">
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="Задачи" id="196f489b-48bd-40f0-9961-8cf868441ecb" text="Задачи" linkedElements="029826dc-b51a-4c6f-b718-88b32d720554 bf9f4a07-b6fd-4c17-bd2c-239270616808 a5490eca-7b3c-4d7d-97bc-3158f1e504f6 c854040e-e9a6-48a5-8b66-7c26f36d1d79" activatorType="None">
-    <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Насданика" id="029826dc-b51a-4c6f-b718-88b32d720554" text="Насданика" linkedElements="85132a62-97b5-442a-9fe7-45d52faab3b7">
+    <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Насданика" id="029826dc-b51a-4c6f-b718-88b32d720554" text="Насданика" linkedElements="85132a62-97b5-442a-9fe7-45d52faab3b7 a196b1f0-1be7-4672-b448-b471e5a8e03a">
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Создание учебных материалов" id="85132a62-97b5-442a-9fe7-45d52faab3b7" text="Создание учебных материалов" linkedElements="6938eedd-3925-45c2-98e1-61b853854bfb aa5bd2a6-33e0-41a6-b941-79771e2dafb8 b602ac95-b122-4488-aa07-d00d537e2a89">
-        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Видео-курсы" id="6938eedd-3925-45c2-98e1-61b853854bfb" text="Видео-курсы" linkedElements="7eafb10b-e6df-4354-af87-cb278ad55d75 0d12907c-acbe-4da3-88ef-a14b22bc52e4 20bce43b-28cf-4bde-8aea-bea2ba5d80ca aa41e331-1f99-48ad-a871-313763ce4dd5 bbe3410a-a019-4fc8-a0e6-0eae8f68813d 3abc0180-3fba-47b7-b31a-ffb5f56a6335 2ef9107e-85a8-4c10-b301-3366ff38a221 3f508226-6c91-4749-8c1b-c319d3f3f38f d10f79b6-1aa1-4e73-8357-b917be4bcdb0 8a442837-595c-4e5c-b82a-067dbfd40b11" sectionStyle="Default" markdownContent="">
-          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Базовый бесплатный курс" id="7eafb10b-e6df-4354-af87-cb278ad55d75" text="Базовый бесплатный курс" markdownContent="курс из 10 лекций продолжительностью 2 часа описывающий: &#xD;&#xA;1.&#xD;&#xA;2.">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Видео-курсы" id="6938eedd-3925-45c2-98e1-61b853854bfb" text="Видео-курсы" linkedElements="7eafb10b-e6df-4354-af87-cb278ad55d75 0d12907c-acbe-4da3-88ef-a14b22bc52e4 20bce43b-28cf-4bde-8aea-bea2ba5d80ca aa41e331-1f99-48ad-a871-313763ce4dd5 bbe3410a-a019-4fc8-a0e6-0eae8f68813d 3abc0180-3fba-47b7-b31a-ffb5f56a6335 2ef9107e-85a8-4c10-b301-3366ff38a221 3f508226-6c91-4749-8c1b-c319d3f3f38f d10f79b6-1aa1-4e73-8357-b917be4bcdb0 8a442837-595c-4e5c-b82a-067dbfd40b11 dd662316-0a07-43ba-874e-406a9beb57a9" sectionStyle="Default" markdownContent="">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Базовый бесплатный курс" id="7eafb10b-e6df-4354-af87-cb278ad55d75" text="Базовый бесплатный курс" markdownContent="курс из 10 лекций продолжительностью 2 часа описывающий: &#xD;&#xA;&#xD;&#xA;1. Что такое генератор статических сайтов Nasdanika Vinci? https://youtu.be/B0gFxXMV9O0&#xD;&#xA;2.  Установка Nasdanika Tool Suit. Знакомство с интерфейсом IDE Eclipse https://youtu.be/FFsjtuOS1Yo&#xD;&#xA;3. Создание новго проекта в IDE Eclipse. Создание и импорт моделей. https://youtu.be/NsHWuncNZKU&#xD;&#xA;4. Элементы модели. Базовый (вертикальный) навигационный каркас. https://youtu.be/xytSnmOJM-Y&#xD;&#xA;5. Роль элемента модели. Контекстный (горизонтальный) навигационный каркас.  https://youtu.be/AzA4yL39krA&#xD;&#xA;6. Создание секций страницы: вкладок, параграфов и карточек. Роль Section.  https://youtu.be/Vh4lTDKMGM0&#xD;&#xA;7. Секции страницы: таблицы &amp; action group.  https://youtu.be/-sHDrtPhzeI&#xD;&#xA;8.  Встраивание интерактивных элементов и произвольного кода. https://youtu.be/vSNOX9wlj-k&#xD;&#xA;9. Оформление сайта: текст, цвет и отступы.  https://youtu.be/Fq2SMQJF-Yk&#xD;&#xA;10 Публикация сайта. Что такое хостинг?   видео нет, будет в курсе следующего уровня&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Промо-видео https://youtu.be/Q-D-19gvzEg">
             <elements xsi:type="org.nasdanika.vinci.app:Action" title="Что такое Nasdanika Vinci? Как можно использовать Mind-map в веб-разработке?" id="27b158a9-f278-4df4-bbd6-b51b5c2d950d" text="Лекция 1. Что такое Nasdanika Vinci? Как можно использовать Mind-map в веб-разработке?" markdownContent="Вводная лекция, описывающая  новый подход к разработке.&#xD;&#xA;5,34 мин. &#xD;&#xA;Запись и обработка лекции  "/>
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="3049974c-cc0d-4b55-b424-2816725b6856"/>
           </elements>
@@ -37,6 +37,7 @@
               </appearance>
             </content>
           </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Видео с экономическим обоснованием выгодности использования Винчи" id="dd662316-0a07-43ba-874e-406a9beb57a9" text="Видео с экономическим обоснованием выгодности использования Винчи"/>
         </elements>
         <elements xsi:type="org.nasdanika.vinci.app:Action" title="Текстовые инструкции" id="aa5bd2a6-33e0-41a6-b941-79771e2dafb8" text="Текстовые инструкции" linkedElements="b5c390bd-fe97-4a53-aa73-f84cb78c3a12 311ed62c-84ab-4020-bf06-cde17ab6e3fd 310a4a14-cf4d-41d4-926e-d00b0c1bed7f">
           <elements xsi:type="org.nasdanika.vinci.app:Action" title="Первый вариант Get Started" id="b5c390bd-fe97-4a53-aa73-f84cb78c3a12" text="Первый вариант Get Started" markdownContent="https://nasdanika.org/products/vinci/tutorials/User-Manual-2/index.html"/>
@@ -51,11 +52,25 @@
           <elements xsi:type="org.nasdanika.vinci.app:Action" title="Мамины книги?" id="ab69a3c4-f2a6-43f6-8071-9aeaac931524" text="Мамины книги?"/>
         </elements>
       </elements>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Создание сайтов и моделей" id="a196b1f0-1be7-4672-b448-b471e5a8e03a" text="Создание сайтов и моделей" linkedElements="ad979d2b-83e8-4cf4-aa08-07f7da9ff28b 166faef0-ae68-4b3e-8b5b-234280b1c479">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Адениум - ДВ" id="ad979d2b-83e8-4cf4-aa08-07f7da9ff28b" text="Адениум - ДВ"/>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Татьяна Владимировна CV" id="166faef0-ae68-4b3e-8b5b-234280b1c479" text="Татьяна Владимировна CV"/>
+      </elements>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Шаблоны для встраивания и на продажу" id="303a1c85-47fc-42d1-a743-3d1d7bf19882" text="Шаблоны для встраивания и на продажу" markdownContent="Доработать:&#xD;&#xA;&#xD;&#xA;- Сэндстоун;&#xD;&#xA;- Юнайтед;&#xD;&#xA;- Флэтли.&#xD;&#xA;&#xD;&#xA;Разработать:&#xD;&#xA;&#xD;&#xA;Шаблоны для тёмных тем&#xD;&#xA;Шаблоны с тенями под текстовыми блоками&#xD;&#xA;"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Продвижение" id="b28da67f-6b7c-4d5f-89b2-fb47a8481d9e" text="Продвижение" markdownContent="### Ю-туб&#xD;&#xA;&#xD;&#xA;- улучшить описание видео&#xD;&#xA;- опубликовать какое нибудь интересное сообщение в ФБ (типа: а вот моя дочь сделала себе протфолио и сослаться на видео на ю-тубе)&#xD;&#xA;-  заставить кого нибудь лайкнуть и перепостить (привлечь маму)&#xD;&#xA;- перевести субтитры к видео (+ добавить перевод на Юдеми)&#xD;&#xA;&#xD;&#xA;### Юдеми&#xD;&#xA;&#xD;&#xA;### Соцсети&#xD;&#xA;&#xD;&#xA;### Хабр"/>
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Остальное" id="bf9f4a07-b6fd-4c17-bd2c-239270616808" text="Остальное">
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Родители" id="80ada44e-159f-4298-a4ed-6b32ca5bf028" text="Родители"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Родители" id="80ada44e-159f-4298-a4ed-6b32ca5bf028" text="Родители">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Маме шторы на кухню (купить и сшить)" id="b7a33859-92c7-47c0-a6e6-2e7a41afeb3f" text="Маме шторы на кухню (купить и сшить)"/>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Провести Маме в комнату электричество" id="3cf35787-0c63-47d7-937d-ff5f9d07fdd0" text="Провести Маме в комнату электричество"/>
+      </elements>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Конюковы семейное" id="c44cb52d-9832-4583-9ae3-c8199277523a" text="Конюковы семейное"/>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Образование" id="dfa4dc0d-ef37-4037-afc8-91e9658718d9" text="Образование"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Образование" id="dfa4dc0d-ef37-4037-afc8-91e9658718d9" text="Образование">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="CSS" id="3e3f4b51-0ad7-425a-b734-a9f1226b6156" text="CSS" markdownContent="Изучить системно, чтобы понимать а не только применять отдельные штучки"/>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="JS" id="184649d3-e317-4b04-9d5d-ad6d42693de5" text="JS" markdownContent="Хотя бы на базовом уровне понимать: что он делает"/>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Английский" id="19dfe891-01f9-471c-a389-48d362e82084" text="Английский"/>
+      </elements>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Трудоустройство" id="07046c2c-5f1e-4724-ae8d-b890e496967d" text="Трудоустройство"/>
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Календарный план" id="c854040e-e9a6-48a5-8b66-7c26f36d1d79" text=" Календарный план" icon="far fa-calendar-alt" role="Context" activator="./../calendar/Calendar.html">
       <appearance>
