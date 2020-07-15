@@ -1,20 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" title="Результаты работы 01 - 06 2020" id="3cf437b0-d81b-4e0c-a290-bdc0c0859416" text="Результаты работы 01 - 06 2020" linkedElements="e4ff48cd-d7eb-4e69-8c8a-8f804c65acb4">
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="принципал" id="resources" icon="fa fa-check-square" linkedElements="325b780c-e474-4716-b0ab-b6caa036fd28 91711f01-6b6c-4780-afdb-e0b2b53804ed 0038c027-24e5-479c-a91b-4f244e704ebb f76aa245-5215-4b87-80c9-5cab10bf5b58 636fbd98-2078-4041-b46c-537347022549">
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.bootstrap="urn:org.nasdanika.vinci.bootstrap" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Результаты работы 01 - 06 2020" id="3cf437b0-d81b-4e0c-a290-bdc0c0859416" text="Результаты работы 01 - 06 2020" linkedElements="resources e4ff48cd-d7eb-4e69-8c8a-8f804c65acb4 636fbd98-2078-4041-b46c-537347022549">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="принципал" id="resources" icon="fa fa-check-square" linkedElements="325b780c-e474-4716-b0ab-b6caa036fd28 91711f01-6b6c-4780-afdb-e0b2b53804ed 0038c027-24e5-479c-a91b-4f244e704ebb f76aa245-5215-4b87-80c9-5cab10bf5b58">
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Шаблоны" id="0038c027-24e5-479c-a91b-4f244e704ebb" text="Шаблоны" linkedElements="221d4d3f-ee5d-42e3-91d5-3f49765572d6 cc58a52f-344c-4c7b-a886-b53d23c45780 b9a71742-a5a5-4b26-9408-58777e5270a5 6808a95f-7b9d-44b1-a655-229145410de0 6e4fd06b-9360-4c85-a47a-824cb438693d 55ad56fd-0fc5-4cbe-8164-1d5c827dfda9 f6d1703a-b1cf-4625-ba5e-3761c63a002c fd2db693-1d0e-4e74-912a-edeecfb42ef4">
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Светлый хедер (table primary) + dark nav bar (primary) " id="221d4d3f-ee5d-42e3-91d5-3f49765572d6" text="SpaseLab. Светлый хедер (table primary) + dark nav bar (primary) " pageTemplate="./resources/SpaseLabTablePrimary.vinci"/>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Светлый хедер (Light) + dark nav bar (primary) " id="cc58a52f-344c-4c7b-a886-b53d23c45780" text="SpaseLab. Светлый хедер (Lighty) + dark nav bar (primary) " markdownContent="[скачать шаблон](./resources/Spaselab_Light_Primary.vinci)" pageTemplate="./resources/Spaselab_Light_Primary.vinci"/>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Светлый хедер (Light) + dark nav bar (dark) " id="b9a71742-a5a5-4b26-9408-58777e5270a5" text="SpaseLab. Светлый хедер (Light) + dark nav bar (dark) " markdownContent="[скачать шаблон](./resources/Spaselab_Light_Dark.vinci)" pageTemplate="./resources/Spaselab_Light_Dark.vinci"/>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Primary хедер + Dark nav bar (светлый текст) " id="6808a95f-7b9d-44b1-a655-229145410de0" text="SpaseLab. Primary хедер + Dark nav bar (светлый текст)" markdownContent="[скачать шаблон](./resources//Spaselab_Primary_Dark_light.vinci)" pageTemplate="./resources/Spaselab_Primary_Dark_light.vinci"/>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Primary хедер + Light nav bar (тёмный текст) " id="6e4fd06b-9360-4c85-a47a-824cb438693d" text="SpaseLab. Primary хедер + Light nav bar (тёмный текст) " markdownContent="[скачать шаблон](./resources/Spaselab_Primary_Light.vinci)" pageTemplate="./resources/Spaselab_Primary_Light.vinci"/>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="United. Header = Light; Navbar = dark" id="55ad56fd-0fc5-4cbe-8164-1d5c827dfda9" text="United. Header = Light navbar = dark" markdownContent="[скачать шаблон](./resources/United_dark.vinci)" pageTemplate="./resources/United_dark.vinci"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Светлый хедер (table primary) + dark nav bar (primary) " id="221d4d3f-ee5d-42e3-91d5-3f49765572d6" text="SpaseLab_01" tooltip="Светлый хедер (table primary) + dark nav bar (primary) " pageTemplate="./resources/SpaseLabTablePrimary.vinci"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Светлый хедер (Light) + dark nav bar (primary) " id="cc58a52f-344c-4c7b-a886-b53d23c45780" text="SpaseLab_02" tooltip="Cветлый хедер (Light) + dark nav bar (primary) " markdownContent="[скачать шаблон](./resources/Spaselab_Light_Primary.vinci)" pageTemplate="./resources/Spaselab_Light_Primary.vinci"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Светлый хедер (Light) + dark nav bar (dark) " id="b9a71742-a5a5-4b26-9408-58777e5270a5" text="SpaseLab_03" markdownContent="[скачать шаблон](./resources/Spaselab_Light_Dark.vinci)" pageTemplate="./resources/Spaselab_Light_Dark.vinci"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Primary хедер + Dark nav bar (светлый текст) " id="6808a95f-7b9d-44b1-a655-229145410de0" text="SpaseLab_04" markdownContent="[скачать шаблон](./Spaselab_Primary_Dark_light.vinci)" pageTemplate="./resources/Spaselab_Primary_Dark_light.vinci"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Primary хедер + Light nav bar (тёмный текст) " id="6e4fd06b-9360-4c85-a47a-824cb438693d" text="SpaseLab_05" markdownContent="[скачать шаблон](./Spaselab_Primary_Light.vinci)" pageTemplate="./resources/Spaselab_Primary_Light.vinci"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="United. Header = Light; Navbar = dark" id="55ad56fd-0fc5-4cbe-8164-1d5c827dfda9" text="United_01" markdownContent="[скачать шаблон](./United_dark.vinci)" pageTemplate="./resources/United_dark.vinci"/>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Sandstone." id="f6d1703a-b1cf-4625-ba5e-3761c63a002c" text="Sandstone." markdownContent="[скачать шаблон](./resources/Sandstone_tablePrimary.vinci)" pageTemplate="./resources/Sandstone_tablePrimary.vinci"/>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Flatly" id="fd2db693-1d0e-4e74-912a-edeecfb42ef4" text="Flatly" markdownContent="[скачать шаблон](./resources/Flatly.vinci)" pageTemplate="./resources/Flatly.vinci"/>
+      <content xsi:type="org.nasdanika.vinci.bootstrap:Table" title="Параметры шаблонов" bordered="true" hover="true">
+        <rows title="Шапка">
+          <cells markdownContent="Тема" title="Тема" header="true"/>
+          <cells markdownContent="Header (стиль)" title="Header (стиль)" header="true"/>
+          <cells markdownContent="Header (цвет)" title="Header (цвет)" header="true"/>
+          <cells markdownContent="Nav bar (стиль)" title="Nav bar (стиль)" header="true"/>
+          <cells markdownContent="Nav bar (цвет)" title="Nav bar (цвет)" header="true"/>
+          <cells markdownContent="Ссылка" title="Ссылка" header="true"/>
+          <cells markdownContent="Другое" title="другое" header="true"/>
+        </rows>
+        <rows title="Spaselab_1">
+          <cells markdownContent="Spaselab #01" title="SpaseLab_01 Светлый хедер (table primary) + dark nav bar (primary) "/>
+          <cells markdownContent="светлый" title="Header (стиль)"/>
+          <cells markdownContent="table-primary" title="Header (цвет)"/>
+          <cells markdownContent="тёмный" title="Nav bar (стиль)"/>
+          <cells markdownContent="primary" title="Nav bar (цвет)"/>
+          <cells markdownContent="[SpaseLabTablePrimary.vinci](./SpaseLabTablePrimary.vinci)" title="Ссылка"/>
+          <cells markdownContent="Другое" title="другое"/>
+        </rows>
+        <rows title="Spaselab_2 SpaseLab. Светлый хедер (Light) + dark nav bar (primary) ">
+          <cells markdownContent="Spaselab #02" title="SpaseLab. Светлый хедер (Light) + dark nav bar (primary) "/>
+          <cells markdownContent="светлый" title="Header (стиль)"/>
+          <cells markdownContent="Light" title="Header (цвет)"/>
+          <cells markdownContent="тёмный" title="Nav bar (стиль)"/>
+          <cells markdownContent="&#x9;&#xD;&#xA;primary" title="Nav bar (цвет)"/>
+          <cells markdownContent="[Spaselab_Light_Primary.vinci](./Spaselab_Light_Primary.vinci)" title="Ссылка"/>
+          <cells markdownContent="Другое" title="другое"/>
+        </rows>
+        <rows title="Spaselab_3 ">
+          <cells markdownContent="Spaselab #03" title="SpaseLab. Светлый хедер (Light) + dark nav bar (dark) "/>
+          <cells markdownContent="светлый" title="Header (стиль)"/>
+          <cells markdownContent="Light" title="Header (цвет)"/>
+          <cells markdownContent="тёмный" title="Nav bar (стиль)"/>
+          <cells markdownContent="&#x9;&#xD;&#xA;dark" title="Nav bar (цвет)"/>
+          <cells markdownContent="[Spaselab_Light_Dark.vinci](./Spaselab_Light_Dark.vinci)" title="Ссылка"/>
+          <cells markdownContent="Другое" title="другое"/>
+        </rows>
+        <rows title="Spaselab_4">
+          <cells markdownContent="Spaselab #04" title="SpaseLab. SpaseLab. Primary хедер (светлый текст)  + Dark nav bar  (светлый текст) "/>
+          <cells markdownContent="тёмный (текст - светлый)" title="Header (стиль)"/>
+          <cells markdownContent="Primary" title="Header (цвет)"/>
+          <cells markdownContent="тёмный" title="Nav bar (стиль)"/>
+          <cells markdownContent="&#x9;&#xD;&#xA;dark" title="Nav bar (цвет)"/>
+          <cells markdownContent="[Spaselab_Light_Dark.vinci](./Spaselab_Primary_Dark_light.vinci)" title="Ссылка"/>
+          <cells markdownContent="Другое" title="другое"/>
+        </rows>
+        <rows title="Spaselab_5 SpaseLab. Primary хедер + Light nav bar (тёмный текст) ">
+          <cells markdownContent="Spaselab #05" title="SpaseLab 05 Primary хедер + Light nav bar (тёмный текст) "/>
+          <cells markdownContent="тёмный (текст - светлый)" title="Header (стиль)"/>
+          <cells markdownContent="Primary" title="Header (цвет)"/>
+          <cells markdownContent="светлый (текст -  тёмный)" title="Nav bar (стиль)"/>
+          <cells markdownContent="light" title="Nav bar (цвет)"/>
+          <cells markdownContent="[Spaselab_Primary_Light.vinci](./Spaselab_Primary_Light.vinci)" title="Ссылка"/>
+          <cells markdownContent="Другое" title="другое"/>
+        </rows>
+        <rows title="United_01. Header = Light navbar = dark">
+          <cells markdownContent="United 01" title="United_01 Header = Light navbar = dark"/>
+          <cells markdownContent="Светлый (текст - dark)" title="Header (стиль)"/>
+          <cells markdownContent="Light" title="Header (цвет)"/>
+          <cells markdownContent="тёмный (текст -  светлый)" title="Nav bar (стиль)"/>
+          <cells markdownContent="dark" title="Nav bar (цвет)"/>
+          <cells markdownContent="[United_dark.vinci](./United_dark.vinci)" title="Ссылка"/>
+          <cells markdownContent="Другое" title="другое"/>
+        </rows>
+        <rows title="Sandstone" color="Secondary">
+          <cells markdownContent="Sandstone" title="Sandstone"/>
+          <cells markdownContent="Светлый (текст - dark)" title="Header (стиль)"/>
+          <cells markdownContent="Light" title="Header (цвет)"/>
+          <cells markdownContent="тёмный (текст -  светлый)" title="Nav bar (стиль)"/>
+          <cells markdownContent="dark" title="Nav bar (цвет)"/>
+          <cells markdownContent="[--------](./United_dark.vinci)" title="Ссылка"/>
+          <cells markdownContent="Другое" title="другое"/>
+        </rows>
+        <rows title="Flatly" color="Secondary">
+          <cells markdownContent="Flatly" title="Flatly"/>
+          <cells markdownContent="Светлый (текст - dark)" title="Header (стиль)"/>
+          <cells markdownContent="Light" title="Header (цвет)"/>
+          <cells markdownContent="тёмный (текст -  светлый)" title="Nav bar (стиль)"/>
+          <cells markdownContent="dark" title="Nav bar (цвет)"/>
+          <cells markdownContent="[--------](./United_dark.vinci)" title="Ссылка"/>
+          <cells markdownContent="Другое" title="другое"/>
+        </rows>
+      </content>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Вернуться к отчёту" id="636fbd98-2078-4041-b46c-537347022549" text="Вернуться к отчёту" role="Context"/>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Картинки и иконки" id="f76aa245-5215-4b87-80c9-5cab10bf5b58" text="Картинки и иконки"/>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Опубликованные сайты" id="91711f01-6b6c-4780-afdb-e0b2b53804ed" text="Опубликованные сайты" markdownContent="Сайт про цветочки. Рабочий. Наполняется.    &#xD;&#xA; https://tanchora.github.io/adenium-dv/&#xD;&#xA;&#xD;&#xA;Гришин блог. Рабочий но пустоватый.     https://khralenok.github.io/khralenok/index.html&#xD;&#xA;&#xD;&#xA;Бухта тунгус. Отдала Максу чтобы он доделывал , но он пока ничего не делает.    &#xD;&#xA;  https://tungus-nakhodka.github.io/camping/index.html&#xD;&#xA;&#xD;&#xA;Лизкино портфолио    &#xD;&#xA;https://koniukovaliza.github.io/portfolio/  &#xD;&#xA;&#xD;&#xA;Второй вариант Get Started (по мотивам базового курса)    &#xD;&#xA;https://tanchora.github.io/vinci_udemy_base_course/courseprogram/index.html&#xD;&#xA;&#xD;&#xA;Первый вариант Get Started    &#xD;&#xA;https://nasdanika.org/products/vinci/tutorials/User-Manual-2/index.html&#xD;&#xA;"/>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Опубликованные видео" id="325b780c-e474-4716-b0ab-b6caa036fd28" text="Опубликованные видео"/>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Картинки и иконки" id="f76aa245-5215-4b87-80c9-5cab10bf5b58" text="Картинки и иконки" sectionStyle="Default">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Заставки для видео - курсов" id="543e45ff-1086-42f3-9255-ca41f00bcf5d" text="Заставки для видео - курсов" role="Section">
+        <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="Винчи-паутина и молекула" style="true" markdown="![](./img/pautina_srart_pict.svg &quot;pautina_srart_pict.svg&quot;)&#xD;&#xA;&#xD;&#xA;[pautina_srart_pict.svg](./img/pautina_srart_pict.svg &quot;pautina_srart_pict.svg&quot;)&#xD;&#xA;&#xD;&#xA;[udemy-bg-vinci-750x422.jpg](./img/udemy-bg-vinci-750x422.jpg &quot;udemy-bg-vinci-750x422.jpg&quot;)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;[udemy-bg-vinci-1920x1080.jpg](./img/udemy-bg-vinci-1920x1080.jpg &quot;udemy-bg-vinci-1920x1080.jpg&quot;)"/>
+        <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="Винчи с кругляшком и свечением" style="true" markdown="![](./img/udemy-bg-750x422.jpg &quot;udemy-bg-750x422.jpg&quot;)&#xD;&#xA;&#xD;&#xA;[udemy-bg-750x422.jpg](./img/udemy-bg-750x422.jpg &quot;udemy-bg-750x422.jpg&quot;)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;[udemy-bg-1920x1080.jpg](./img/udemy-bg-1920x1080.jpg &quot;udemy-bg-1920x1080.jpg&quot;)"/>
+        <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="Заставка на угол альбомного листа" style="true" markdown="![](./img/vinci_zastavka_album.svg &quot;vinci_zastavka_album.svg&quot;)&#xD;&#xA;&#xD;&#xA;[vinci_zastavka_album.svg](./img/vinci_zastavka_album.svg)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;![](./img/vinci_zastavka_dark.svg  &quot;vinci_zastavka_dark.svg&quot;)&#xD;&#xA;&#xD;&#xA;[vinci_zastavka_dark.svg](vinci_zastavka_dark.svg)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;![Zastavka_cource_round.svg](./img/Zastavka_cource_round.svg)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;[Zastavka_cource_round.svg](./img/Zastavka_cource_round.svg)&#xD;&#xA;"/>
+      </elements>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Заготовки на будущее" id="01169485-be1f-411b-9ebb-497c492d3b8a" text="Заготовки на будущее" markdownContent="![courselogo16.svg](./img/courselogo16.svg)    &#xD;&#xA;[courselogo16.svg](./img/courselogo16.svg)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;![lamp_sadow01.svg](./img/lamp_sadow01.svg)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;![lamp_sadow01.svg](./img/lamp01.svg)"/>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Сайты" id="91711f01-6b6c-4780-afdb-e0b2b53804ed" text="Сайты / инструкции" markdownContent="Сайт про цветочки. Рабочий. Наполняется.    &#xD;&#xA; https://tanchora.github.io/adenium-dv/&#xD;&#xA;&#xD;&#xA;Гришин блог. Рабочий но пустоватый.     https://khralenok.github.io/khralenok/index.html&#xD;&#xA;&#xD;&#xA;Бухта тунгус. Отдала Максу чтобы он доделывал , но он пока ничего не делает.    &#xD;&#xA;  https://tungus-nakhodka.github.io/camping/index.html&#xD;&#xA;&#xD;&#xA;Лизкино портфолио    &#xD;&#xA;https://koniukovaliza.github.io/portfolio/  &#xD;&#xA;&#xD;&#xA;Второй вариант Get Started (по мотивам базового курса)    &#xD;&#xA;https://tanchora.github.io/vinci_udemy_base_course/courseprogram/index.html&#xD;&#xA;&#xD;&#xA;Первый вариант Get Started    &#xD;&#xA;https://nasdanika.org/products/vinci/tutorials/User-Manual-2/index.html&#xD;&#xA;&#xD;&#xA;https://tanchora.github.io/Roadmap/&#xD;&#xA;"/>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Видео" id="325b780c-e474-4716-b0ab-b6caa036fd28" text="Видео"/>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Для примера текста в шаблоне " id="67f9d44e-719a-4c6f-a90f-bd3d167a9b00" text="Для примера текста в шаблоне " role="Context"/>
   </elements>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Вернуться к отчёту" id="e4ff48cd-d7eb-4e69-8c8a-8f804c65acb4" text="Вернуться к отчёту" activator="./../Roadmap01/index.html"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Задачи" id="e4ff48cd-d7eb-4e69-8c8a-8f804c65acb4" text="Задачи" activator="./../Roadmap01/index.html"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Календарный план" id="636fbd98-2078-4041-b46c-537347022549" text="Календарный план" activator="./../calendar/Calendar.html"/>
 </org.nasdanika.vinci.app:Action>
