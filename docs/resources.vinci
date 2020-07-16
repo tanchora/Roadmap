@@ -2,11 +2,11 @@
 <org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.bootstrap="urn:org.nasdanika.vinci.bootstrap" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Результаты работы 01 - 06 2020" id="3cf437b0-d81b-4e0c-a290-bdc0c0859416" text="Результаты работы 01 - 06 2020" linkedElements="resources e4ff48cd-d7eb-4e69-8c8a-8f804c65acb4 636fbd98-2078-4041-b46c-537347022549 0349fc93-ceb8-4918-9c4a-63d01d7a0d16">
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="принципал" id="resources" icon="fa fa-check-square" linkedElements="325b780c-e474-4716-b0ab-b6caa036fd28 91711f01-6b6c-4780-afdb-e0b2b53804ed 0038c027-24e5-479c-a91b-4f244e704ebb f76aa245-5215-4b87-80c9-5cab10bf5b58">
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Шаблоны" id="0038c027-24e5-479c-a91b-4f244e704ebb" text="Шаблоны" linkedElements="221d4d3f-ee5d-42e3-91d5-3f49765572d6 cc58a52f-344c-4c7b-a886-b53d23c45780 b9a71742-a5a5-4b26-9408-58777e5270a5 6808a95f-7b9d-44b1-a655-229145410de0 6e4fd06b-9360-4c85-a47a-824cb438693d 55ad56fd-0fc5-4cbe-8164-1d5c827dfda9 f6d1703a-b1cf-4625-ba5e-3761c63a002c fd2db693-1d0e-4e74-912a-edeecfb42ef4">
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Светлый хедер (table primary) + dark nav bar (primary) " id="221d4d3f-ee5d-42e3-91d5-3f49765572d6" text="SpaseLab_01" tooltip="Светлый хедер (table primary) + dark nav bar (primary) " pageTemplate="./resources/SpaseLabTablePrimary.vinci"/>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Светлый хедер (Light) + dark nav bar (primary) " id="cc58a52f-344c-4c7b-a886-b53d23c45780" text="SpaseLab_02" tooltip="Cветлый хедер (Light) + dark nav bar (primary) " markdownContent="[скачать шаблон](./resources/Spaselab_Light_Primary.vinci)" pageTemplate="./resources/Spaselab_Light_Primary.vinci"/>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Светлый хедер (Light) + dark nav bar (dark) " id="b9a71742-a5a5-4b26-9408-58777e5270a5" text="SpaseLab_03" markdownContent="[скачать шаблон](./resources/Spaselab_Light_Dark.vinci)" pageTemplate="./resources/Spaselab_Light_Dark.vinci"/>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Primary хедер + Dark nav bar (светлый текст) " id="6808a95f-7b9d-44b1-a655-229145410de0" text="SpaseLab_04" markdownContent="[скачать шаблон](./Spaselab_Primary_Dark_light.vinci)" pageTemplate="./resources/Spaselab_Primary_Dark_light.vinci"/>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaseLab. Primary хедер + Light nav bar (тёмный текст) " id="6e4fd06b-9360-4c85-a47a-824cb438693d" text="SpaseLab_05" markdownContent="[скачать шаблон](./Spaselab_Primary_Light.vinci)" pageTemplate="./resources/Spaselab_Primary_Light.vinci"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="SpaceLab. Светлый хедер (table primary) + dark nav bar (primary) " id="221d4d3f-ee5d-42e3-91d5-3f49765572d6" text="Spacelab_01" tooltip="Светлый хедер (table primary) + dark nav bar (primary) " pageTemplate="./resources/SpaseLabTablePrimary.vinci"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Spacelab. Светлый хедер (Light) + dark nav bar (primary) " id="cc58a52f-344c-4c7b-a886-b53d23c45780" text="Spacelab_02" tooltip="Cветлый хедер (Light) + dark nav bar (primary) " markdownContent="[скачать шаблон](./resources/Spaselab_Light_Primary.vinci)" pageTemplate="./resources/Spaselab_Light_Primary.vinci"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Spacelab. Светлый хедер (Light) + dark nav bar (dark) " id="b9a71742-a5a5-4b26-9408-58777e5270a5" text="Spacelab_03" markdownContent="[скачать шаблон](./resources/Spaselab_Light_Dark.vinci)" pageTemplate="./resources/Spaselab_Light_Dark.vinci"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Spacelab. Primary хедер + Dark nav bar (светлый текст) " id="6808a95f-7b9d-44b1-a655-229145410de0" text="Spacelab_04" markdownContent="[скачать шаблон](./Spaselab_Primary_Dark_light.vinci)" pageTemplate="./resources/Spaselab_Primary_Dark_light.vinci"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Spacelab. Primary хедер + Light nav bar (тёмный текст) " id="6e4fd06b-9360-4c85-a47a-824cb438693d" text="Spacelab_05" markdownContent="[скачать шаблон](./Spaselab_Primary_Light.vinci)" pageTemplate="./resources/Spaselab_Primary_Light.vinci"/>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="United. Header = Light; Navbar = dark" id="55ad56fd-0fc5-4cbe-8164-1d5c827dfda9" text="United_01" markdownContent="[скачать шаблон](./United_dark.vinci)" pageTemplate="./resources/United_dark.vinci"/>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Sandstone." id="f6d1703a-b1cf-4625-ba5e-3761c63a002c" text="Sandstone." markdownContent="[скачать шаблон](./resources/Sandstone_tablePrimary.vinci)" pageTemplate="./resources/Sandstone_tablePrimary.vinci"/>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Flatly" id="fd2db693-1d0e-4e74-912a-edeecfb42ef4" text="Flatly" markdownContent="[скачать шаблон](./resources/Flatly.vinci)" pageTemplate="./resources/Flatly.vinci"/>
@@ -21,7 +21,7 @@
           <cells markdownContent="Другое" title="другое" header="true"/>
         </rows>
         <rows title="Spaselab_1">
-          <cells markdownContent="Spaselab #01" title="SpaseLab_01 Светлый хедер (table primary) + dark nav bar (primary) "/>
+          <cells markdownContent="Spacelab #01" title="SpaseLab_01 Светлый хедер (table primary) + dark nav bar (primary) "/>
           <cells markdownContent="светлый" title="Header (стиль)"/>
           <cells markdownContent="table-primary" title="Header (цвет)"/>
           <cells markdownContent="тёмный" title="Nav bar (стиль)"/>
@@ -30,7 +30,7 @@
           <cells markdownContent="Другое" title="другое"/>
         </rows>
         <rows title="Spaselab_2 SpaseLab. Светлый хедер (Light) + dark nav bar (primary) ">
-          <cells markdownContent="Spaselab #02" title="SpaseLab. Светлый хедер (Light) + dark nav bar (primary) "/>
+          <cells markdownContent="Spacelab #02" title="SpaseLab. Светлый хедер (Light) + dark nav bar (primary) "/>
           <cells markdownContent="светлый" title="Header (стиль)"/>
           <cells markdownContent="Light" title="Header (цвет)"/>
           <cells markdownContent="тёмный" title="Nav bar (стиль)"/>
@@ -39,7 +39,7 @@
           <cells markdownContent="Другое" title="другое"/>
         </rows>
         <rows title="Spaselab_3 ">
-          <cells markdownContent="Spaselab #03" title="SpaseLab. Светлый хедер (Light) + dark nav bar (dark) "/>
+          <cells markdownContent="Spacelab #03" title="SpaseLab. Светлый хедер (Light) + dark nav bar (dark) "/>
           <cells markdownContent="светлый" title="Header (стиль)"/>
           <cells markdownContent="Light" title="Header (цвет)"/>
           <cells markdownContent="тёмный" title="Nav bar (стиль)"/>
@@ -48,7 +48,7 @@
           <cells markdownContent="Другое" title="другое"/>
         </rows>
         <rows title="Spaselab_4">
-          <cells markdownContent="Spaselab #04" title="SpaseLab. SpaseLab. Primary хедер (светлый текст)  + Dark nav bar  (светлый текст) "/>
+          <cells markdownContent="Spacelab #04" title="SpaseLab. SpaseLab. Primary хедер (светлый текст)  + Dark nav bar  (светлый текст) "/>
           <cells markdownContent="тёмный (текст - светлый)" title="Header (стиль)"/>
           <cells markdownContent="Primary" title="Header (цвет)"/>
           <cells markdownContent="тёмный" title="Nav bar (стиль)"/>
@@ -57,7 +57,7 @@
           <cells markdownContent="Другое" title="другое"/>
         </rows>
         <rows title="Spaselab_5 SpaseLab. Primary хедер + Light nav bar (тёмный текст) ">
-          <cells markdownContent="Spaselab #05" title="SpaseLab 05 Primary хедер + Light nav bar (тёмный текст) "/>
+          <cells markdownContent="Spacelab #05" title="SpaseLab 05 Primary хедер + Light nav bar (тёмный текст) "/>
           <cells markdownContent="тёмный (текст - светлый)" title="Header (стиль)"/>
           <cells markdownContent="Primary" title="Header (цвет)"/>
           <cells markdownContent="светлый (текст -  тёмный)" title="Nav bar (стиль)"/>
